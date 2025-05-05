@@ -28,10 +28,10 @@ function App() {
       };
 
       await emailjs.send(
-        'service_dedy8yi',
-        'template_qbtdrd9',
+        'service_decxq3c',
+        'template_uk0rttd',
         templateParams,
-        'XPTOYAmapGl4zCNYa'
+        'knfkMKnxQGXE4LaSa'
       );
 
       setMessage('Thank you! We will notify you when we launch. 🎉');
