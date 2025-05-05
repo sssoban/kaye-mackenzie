@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="background-image">
-      <img src="src\assets\KayeMackenzieLogo.png" alt="Kaye Mackenzie Logo" className='pt-12 h-70 mx-auto'/>
+      <img src="KayeMackenzieLogo.png" alt="Kaye Mackenzie Logo" className='pt-12 h-70 mx-auto'/>
       <div className='mt-20'>
         <h1 className='font-poppins text-[65px] text-[#1E3C87] font-bold'>Something Exciting Is Coming</h1>
         <p className='font-poppins-regular text-[20px] text-[#4B5563]'>We're working on something special and can't wait to share it with you.</p>
