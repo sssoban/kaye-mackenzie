@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.background-image {
+  background-image: url('./assets/backgroundPicture.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
