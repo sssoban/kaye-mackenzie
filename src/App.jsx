@@ -60,7 +60,7 @@ function App() {
           value={email}
           onChange={handleEmailChange}
           placeholder='Enter your email address' 
-          className='border-1 p-2 w-100 text-center placeholder:text-[#9CA3AF] focus:placeholder-transparent'
+          className='border-1 p-2 w-80 sm:w-100 text-center placeholder:text-[#9CA3AF] focus:placeholder-transparent'
           required
         />
         <button 
