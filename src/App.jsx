@@ -46,10 +46,10 @@ function App() {
 
   return (
     <div className="background-image">
-      <img src="KayeMackenzieLogo.png" alt="Kaye Mackenzie Logo" className='pt-12 h-70 mx-auto'/>
-      <div className='mt-20'>
-        <h1 className='font-poppins text-[65px] text-[#1E3C87] font-bold'>Something Exciting Is Coming</h1>
-        <p className='font-poppins-regular text-[20px] text-[#4B5563]'>We're working on something special and can't wait to share it with you.</p>
+      <img src="KayeMackenzieLogo.png" alt="Kaye Mackenzie Logo" className='pt-12 h-50 sm:h-70 mx-auto'/>
+      <div className='sm:mt-20 mx-2'>
+        <h1 className='text-[35px] sm:text-[65px] text-[#1E3C87] font-bold'>Something Exciting Is Coming</h1>
+        <p className=' sm:text-[20px] text-[#4B5563]'>We're working on something special and can't wait to share it with you.</p>
       </div>
       <div className='mt-10 mb-4'>
         <p className='font-poppins-regular text-[20px] text-[#4B5563]'>Be the first to know when we launch!</p>
@@ -66,7 +66,7 @@ function App() {
         <button 
           type="submit"
           disabled={isSubmitting}
-          className=' bg-[#405fad] text-white px-20 py-4 py-2 font-poppins-regular hover:bg-[#1E3C87] transition-colors'
+          className=' bg-[#405fad] text-white px-20 py-4 py-2 hover:bg-[#1E3C87] transition-colors'
         >
           {isSubmitting ? 'Submitting...' : 'Notify Me'}
         </button>
@@ -76,7 +76,7 @@ function App() {
           {message}
         </div>
       )}
-      <div className='mt-45 text-[#666666] text-[14px] font-poppins-regular'>
+      <div className='fixed bottom-0 left-0 right-0 mb-4 text-[#666666] text-[14px]'>
         Privacy Policy | Terms of Service <br/>
         © 2025 Kaye MacKenzie. All rights reserved.
       </div>
