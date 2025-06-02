@@ -1,0 +1,16 @@
+const FrontSection = () => {
+  return (
+    <div className="w-full h-[720px] bg-[#204396] text-white flex flex-col items-center justify-center gap-5">
+      <div className="border w-[135px] h-[135px] rounded-full bg-white flex items-center justify-center">
+        <img
+          src="/speaker.png"
+          alt="Speaker"
+        />
+      </div>
+      <p className="text-4xl font-bold">Our Services</p>
+      <p className="text-xl w-[30%] text-center">Discover a complete range of digital solutions designed to elevate your brand, connect with your audience, and drive long-term success across mobile, web, search, and user experience.</p>
+    </div>
+  );
+};
+
+export default FrontSection;

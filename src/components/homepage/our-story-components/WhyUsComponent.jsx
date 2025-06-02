@@ -1,0 +1,26 @@
+import React from "react";
+
+const WhyUsComponent = () => {
+  return (
+    <div className="text-left flex flex-col gap-10 mt-40">
+      <div>
+        <p className="text-[#5C2F88] text-3xl tracking-[20px] font-inter font-medium">
+          Why Us
+        </p>
+        <p className="text-[#444444] text-[82px] tracking-[20px] font-bold">Why Us</p>
+      </div>
+      <p className="text-[#6C6C6C] text-[16px] w-100">
+        With decades of trusted expertise, we have consistently delivered
+        outstanding results. Whether in real estate or IT solutions, our
+        commitment to innovation, quality, and client success sets us apart.
+      </p>
+      <img
+        src="/developer.jpg"
+        alt="Modern glass buildings"
+        className="w-[470px] h-[580px] object-cover mt-10 rounded-xl"
+      />
+    </div>
+  );
+};
+
+export default WhyUsComponent;
