@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-[110px] flex items-center justify-between px-20 bg-white">
       <img
-        src="public\KayeMackenzieLogo.png"
+        src="/KayeMackenzieLogo.png"
         className="max-h-[90px] w-auto object-contain"
       />
       <ul className="flex gap-10 lowercase italic  text-2xl text-[#464646]">
