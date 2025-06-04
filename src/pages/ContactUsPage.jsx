@@ -75,8 +75,8 @@ const ContactUsPage = () => {
           Any question or remarks? Just write us a message!
         </p>
       </div>
-      <div className="w-[80%] bg-white h-[500px] rounded-2xl flex">
-        <div className="bg-[#204396] text-white text-left p-10 flex flex-col gap-20 w-[40%] rounded-2xl m-2">
+      <div className="sm:w-[80%] bg-white sm:h-[500px] rounded-2xl flex flex-col sm:flex-row">
+        <div className="bg-[#204396] text-white text-left p-10 flex flex-col gap-20 sm:w-[40%] rounded-2xl m-2">
           <div>
             <p className="font-semibold text-3xl">Contact Information</p>
             <p className="text-xl font-extralight italic">
@@ -98,7 +98,7 @@ const ContactUsPage = () => {
             </div>
           </div>
         </div>
-        <div className="w-[60%] p-10">
+        <div className="sm:w-[60%] p-10">
           <form onSubmit={handleSubmit} className="flex flex-col gap-4">
             <div className="flex gap-4">
               <input
@@ -145,7 +145,7 @@ const ContactUsPage = () => {
               value={formData.message}
               onChange={handleChange}
               placeholder="Your Message"
-              className="border-1 placeholder:text-center placeholder:text-[#9CA3AF] focus:placeholder-transparent h-32"
+              className="border-1 placeholder:text-center placeholder:text-[#9CA3AF] focus:placeholder-transparent h-32 rounded-2xl"
               required
             />
             <button
