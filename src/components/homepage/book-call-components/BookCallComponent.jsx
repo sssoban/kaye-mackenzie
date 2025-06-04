@@ -10,9 +10,9 @@ const BookCallComponent = () => {
 
   return (
     <div className="flex flex-col items-center gap-8 text-white py-10">
-      <div>
-        <p className="text-5xl font-bold">Let's work together!</p>
-        <p className="text-2xl italic">
+      <div className="px-5 sm:px-0 flex flex-col gap-4 sm:gap-0">
+        <p className="text-3xl sm:text-5xl font-bold">Let's work together!</p>
+        <p className="text-lg sm:text-2xl italic">
           Looking for expert real estate guidance or cutting-edge IT solutions?
           Let's talk!
         </p>

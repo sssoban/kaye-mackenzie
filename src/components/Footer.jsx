@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="flex justify-center gap-30 bg-[#204396] py-10 text-white">
+    <div className="hidden sm:flex justify-center gap-30 bg-[#204396] py-10 text-white">
       <div className="flex flex-col gap-10 text-left justify-center">
         <p className="text-2xl w-[400px]">
           813 Stockport Road, Levenshulme Manchester M19 3BS

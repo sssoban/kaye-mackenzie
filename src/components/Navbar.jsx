@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div className="w-full h-[110px] flex items-center justify-between px-20 bg-white">
+    <div className="hidden md:flex w-full h-[110px] items-center justify-between px-20 bg-white">
       <img
         src="/KayeMackenzieLogo.png"
         className="max-h-[90px] w-auto object-contain"

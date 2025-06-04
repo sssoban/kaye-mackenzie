@@ -4,7 +4,7 @@ import WhyUsComponent from './WhyUsComponent'
 
 const OurStorySection = () => {
   return (
-    <div className='flex px-50 py-30'>
+    <div className='flex flex-col sm:flex-row sm:px-50 py-30'>
         <WhoWeAreComponent/>
         <WhyUsComponent/>
     </div>

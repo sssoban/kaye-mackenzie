@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 const ItSolutionService = () => {
   return (
-    <div className="flex flex-col gap-5 px-15">
-      <p className="text-4xl text-[#444444] font-bold">For IT Services</p>
-      <p className="text-2xl text-[#00000083]">
+    <div className="flex flex-col gap-5 px-15 py-5">
+      <p className="text-2xl sm:text-4xl text-[#444444] font-bold">For IT Services</p>
+      <p className="text-lg sm:text-2xl text-[#00000083]">
         Website development, Mobile app development, UI/UX designing
       </p>
       <Link

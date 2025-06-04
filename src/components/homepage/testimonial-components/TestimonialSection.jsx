@@ -28,7 +28,7 @@ const TestimonialSection = () => {
       <p className="text-[45px] font-bold text-white">
         What our customers <br /> say about us
       </p>
-      <div className="flex gap-5">
+      <div className="flex flex-col sm:flex-row gap-5">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard 
             key={index}
