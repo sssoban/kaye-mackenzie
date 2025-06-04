@@ -2,7 +2,7 @@ import React from "react";
 
 const WhoWeAreComponent = () => {
   return (
-    <div className="text-left flex flex-col gap-5 sm:gap-10">
+    <div className="text-left flex flex-col gap-5 sm:gap-10 sm:items-baseline">
       <div className="px-5">
         <p className="text-[#5C2F88] sm:text-3xl tracking-[20px] font-inter font-medium">
           Who We Are
