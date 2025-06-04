@@ -9,9 +9,9 @@ const MainSection = () => {
   };
 
   return (
-    <div className=" w-full items-center justify-center flex px-30">
+    <div className="w-full items-center justify-center flex px-10 sm:px-30">
       <div className="text-left flex flex-col gap-10">
-        <p className="text-4xl w-[130%] font-bold text-[#252525]">
+        <p className="text-4xl sm:w-[130%] font-bold text-[#252525]">
           Building Future-Ready <span className="text-[#1090CB]">Mobile and Web Experiences</span>  That Help Your
           Business Thrive
         </p>
@@ -31,7 +31,7 @@ const MainSection = () => {
           Get in touch
         </button>
       </div>
-      <img src="3DIllustration.png" alt="it-main-img" className="w-[65%]" />
+      <img src="3DIllustration.png" alt="it-main-img" className="w-[65%] hidden sm:flex" />
     </div>
   );
 };

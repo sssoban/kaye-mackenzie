@@ -9,7 +9,7 @@ const stats = [
 
 const SuccessSection = () => {
   return (
-    <div className="h-[500px] bg-[#204396] w-full flex items-center justify-center text-white gap-20    ">
+    <div className="sm:h-[500px] bg-[#204396] w-full flex flex-col sm:flex-row items-center justify-center text-white gap-20 py-10 sm:py-0">
       {stats.map((stat) => (
         <div key={stat.label} className="flex flex-col items-center gap-5">
           <p className="text-8xl font-bold">{stat.value}</p>
