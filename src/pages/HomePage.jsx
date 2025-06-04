@@ -8,7 +8,7 @@ function HomePage() {
   return (
     <div className="flex flex-col items-center">
       <FrontSection />
-      <div className="-mt-32">
+      <div className="-mt-15 sm:-mt-32">
         <ServicesSelectionSection />
       </div>
       <div className="my-20 w-full bg-white flex justify-center">

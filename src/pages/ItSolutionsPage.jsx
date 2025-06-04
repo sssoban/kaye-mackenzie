@@ -16,7 +16,7 @@ const ItSolutionsPage = () => {
   return (
     <div className="flex items-center justify-center flex-col bg-white gap-15 sm:gap-0">
       <FrontSection />
-      <div className="-mt-35 flex justify-center">
+      <div className="-mt-20 sm:-mt-35 flex justify-center">
         <ItServicesSection />
       </div>
       <MainSection />

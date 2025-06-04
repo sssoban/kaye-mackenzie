@@ -1,6 +1,6 @@
 const FrontSection = () => {
   return (
-    <div className="w-full h-[720px] bg-[#204396] text-white flex flex-col items-center justify-center gap-5 pt-10">
+    <div className="w-full h-[500px] sm:h-[720px] bg-[#204396] text-white flex flex-col items-center justify-center gap-5 pt-10">
       <div className="border w-[135px] h-[135px] rounded-full bg-white flex items-center justify-center">
         <img
           src="/speaker.png"
