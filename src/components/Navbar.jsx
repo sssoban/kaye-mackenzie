@@ -15,14 +15,14 @@ const Navbar = () => {
         >
           Home
         </NavLink>
-        {/* <NavLink
+        <NavLink
           to="/real-estate"
           className={({ isActive }) =>
             isActive ? "underline" : ""
           }
         >
           Real Estate
-        </NavLink> */}
+        </NavLink>
         <NavLink
           to="/it-solutions"
           className={({ isActive }) =>

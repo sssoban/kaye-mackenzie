@@ -1,7 +1,8 @@
 
 const FrontSection = () => {
   return (
-    <div className="w-full px-4 h-[600px] sm:h-[720px] bg-[#204396] text-white flex flex-col items-center justify-center gap-4 sm:gap-0">
+    <div className="w-full px-4 h-[720px] bg-[#204396] text-white flex flex-col items-center justify-center gap-4 sm:gap-0">
+      <img src='public\KayeMackenzieLogoWithBG.png' alt='logo' className="sm:hidden w-[80%] pt-10"/>
       <p className="font-bold italic sm:text-[70px] text-[40px]">
         Real Estate Expertise. IT Solutions Excellence.
       </p>

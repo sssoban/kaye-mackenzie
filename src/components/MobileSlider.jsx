@@ -39,6 +39,15 @@ const MobileSlider = () => {
             Home
           </NavLink>
           <NavLink
+            to="/real-estate"
+            className={({ isActive }) =>
+              `text-2xl text-[#464646] italic ${isActive ? 'underline' : ''}`
+            }
+            onClick={() => setIsOpen(false)}
+          >
+            Real Estate
+          </NavLink>
+          <NavLink
             to="/it-solutions"
             className={({ isActive }) =>
               `text-2xl text-[#464646] italic ${isActive ? 'underline' : ''}`

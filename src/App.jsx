@@ -66,7 +66,7 @@ function App() {
         <button 
           type="submit"
           disabled={isSubmitting}
-          className=' bg-[#405fad] text-white px-20 py-4 py-2 hover:bg-[#1E3C87] transition-colors'
+          className=' bg-[#405fad] text-white px-20 py-4 hover:bg-[#1E3C87] transition-colors'
         >
           {isSubmitting ? 'Submitting...' : 'Notify Me'}
         </button>
