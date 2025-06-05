@@ -9,7 +9,7 @@ const RealEstateService = () => {
         Property buying, selling, renting, investment consulting
       </p>
       <Link
-        // to="/real-estate"
+        to="/real-estate"
         className="bg-[#204396] text-white py-2 rounded-lg hover:bg-[#1a3678] transition-colors text-center"
       >
         Explore Real Estate Services
