@@ -10,8 +10,7 @@ const FrontSection = () => {
         • Real Estate Expertise <br className="sm:hidden"/> • IT Solutions Excellence
       </p>
       <p className="hidden sm:flex font-bold italic text-[70px]">
-        Real Estate Expertise. IT Solutions.
-        Excellence
+        Real Estate Expertise. IT Solutions Excellence.
       </p>
       <p className="italic text-2xl sm:text-[25px] font-lato">
         From property investments to cutting-edge digital solutions, we bring
