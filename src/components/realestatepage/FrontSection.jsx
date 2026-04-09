@@ -7,8 +7,8 @@ const FrontSection = () => {
           alt="Speaker"
         />
       </div>
-      <p className="text-4xl font-bold">IT Services</p>
-      <p className="text-xl px-3 sm:px-0 sm:w-[30%] text-center">Discover a complete range of digital solutions designed to elevate your brand, connect with your audience, and drive long-term success across mobile, web, search, and user experience.</p>
+      <p className="text-4xl font-bold">Real Estate Services</p>
+      <p className="text-xl px-3 sm:px-0 sm:w-[30%] text-center">We specialise in residential property rentals and purchases. Whether you’re searching for the right home, investing, or letting out your property, our team is here to guide you every step of the way.</p>
     </div>
   );
 };
