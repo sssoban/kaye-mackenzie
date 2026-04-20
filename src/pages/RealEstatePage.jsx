@@ -2,13 +2,14 @@ import FrontSection from "../components/realestatepage/FrontSection";
 import RealEstateServicesSection from "../components/realestatepage/RealEstateServicesSection";
 import MainSection from "../components/realestatepage/MainSection";
 import SuccessSection from "../components/realestatepage/SuccessSection";
+import StudioFlatSection from "../components/realestatepage/StudioFlatSection";
 import BookCallComponent from "../components/homepage/book-call-components/BookCallComponent.jsx";
 import React, { useEffect } from "react";
 
 const RealEstatePage = () => {
   useEffect(() => {
     window.scrollTo({
-      top,
+      top: 0,
       behavior: "smooth",
     });
   }, []);
@@ -20,6 +21,7 @@ const RealEstatePage = () => {
         <RealEstateServicesSection/>
       </div>
       <MainSection />
+      <StudioFlatSection />
       <SuccessSection />
       <div className="w-full bg-[#5C2F88] rounded-t-4xl mt-20">
         <BookCallComponent />
