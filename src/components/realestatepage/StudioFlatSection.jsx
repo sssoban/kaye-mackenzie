@@ -40,16 +40,41 @@ const StudioFlatSection = () => {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#252525] leading-tight">
             Studio Flat Ready to Move In
           </h2>
-          <p className="text-base sm:text-lg text-[#545454] max-w-4xl">
-            Explore our modern studio flat with bright interiors, practical layout,
-            and great comfort for city living. Browse the latest photos and a full
-            walk-through video below.
-          </p>
+          <div className="flex flex-col gap-3 max-w-5xl">
+            <p className="text-base sm:text-lg text-[#545454]">
+              A well-presented studio flat located on the first floor in the
+              M19 3AD area. The property is clean, bright, and well-maintained,
+              offering a comfortable living space ideal for individuals or
+              professionals.
+            </p>
+            <p className="text-base sm:text-lg text-[#545454]">
+              Conveniently situated with easy access to local shops,
+              supermarkets, and public transport, including nearby train
+              stations, making commuting straightforward. The area is
+              well-connected and offers all essential amenities within walking
+              distance.
+            </p>
+            <p className="text-base sm:text-lg text-[#545454]">
+              A great option for those looking for a practical and conveniently
+              located place to live.
+            </p>
+            <div className="flex flex-wrap gap-3 pt-1">
+              <span className="text-sm sm:text-base bg-white border border-[#D9EAF6] text-[#35546B] px-4 py-2 rounded-full">
+                Rent: £700 pcm
+              </span>
+              <span className="text-sm sm:text-base bg-white border border-[#D9EAF6] text-[#35546B] px-4 py-2 rounded-full">
+                Postcode: M19 3AD
+              </span>
+              <span className="text-sm sm:text-base bg-white border border-[#D9EAF6] text-[#35546B] px-4 py-2 rounded-full">
+                EPC Rating: C
+              </span>
+            </div>
+          </div>
         </div>
 
         <div className="flex flex-col gap-4 sm:gap-6">
-          <div className="relative rounded-3xl overflow-hidden bg-black w-full max-w-6xl mx-auto">
-            <div className="absolute inset-0 pointer-events-none">
+          <div className="relative rounded-none sm:rounded-3xl overflow-hidden bg-transparent sm:bg-black w-full max-w-6xl mx-auto">
+            <div className="absolute inset-0 pointer-events-none hidden sm:block">
               <img
                 src={backgroundSrc}
                 alt=""
@@ -62,7 +87,7 @@ const StudioFlatSection = () => {
             {activeMedia.type === "video" ? (
               <video
                 src={activeMedia.src}
-                className="relative z-10 w-full h-[420px] sm:h-[580px] lg:h-[78vh] lg:max-h-[900px] object-contain"
+                className="relative z-10 w-full h-auto max-h-[75vh] sm:h-[580px] sm:max-h-none lg:h-[78vh] lg:max-h-[900px] object-contain"
                 autoPlay
                 muted
                 controls
@@ -75,7 +100,7 @@ const StudioFlatSection = () => {
               <img
                 src={activeMedia.src}
                 alt={activeMedia.alt}
-                className="relative z-10 w-full h-[420px] sm:h-[580px] lg:h-[78vh] lg:max-h-[900px] object-contain"
+                className="relative z-10 w-full h-auto max-h-[75vh] sm:h-[580px] sm:max-h-none lg:h-[78vh] lg:max-h-[900px] object-contain"
                 loading="lazy"
               />
             )}
@@ -104,10 +129,10 @@ const StudioFlatSection = () => {
                 key={mediaItem.src}
                 type="button"
                 onClick={() => setActiveIndex(index)}
-                className={`rounded-xl overflow-hidden border-2 cursor-pointer transition ${
+                className={`rounded-none sm:rounded-xl overflow-hidden border-0 sm:border-2 cursor-pointer transition ${
                   activeIndex === index
-                    ? "border-[#1090CB]"
-                    : "border-transparent opacity-75 hover:opacity-100"
+                    ? "sm:border-[#1090CB] opacity-100"
+                    : "sm:border-transparent opacity-75 hover:opacity-100"
                 }`}
                 aria-label={`Show studio flat media ${index + 1}`}
               >
