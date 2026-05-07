@@ -60,7 +60,7 @@ const StudioFlatSection = () => {
             </p>
             <div className="flex flex-wrap gap-3 pt-1">
               <span className="text-sm sm:text-base bg-white border border-[#D9EAF6] text-[#35546B] px-4 py-2 rounded-full">
-                Rent: £700 pcm
+                Rent: £600 pcm
               </span>
               <span className="text-sm sm:text-base bg-white border border-[#D9EAF6] text-[#35546B] px-4 py-2 rounded-full">
                 Postcode: M19 3AD
