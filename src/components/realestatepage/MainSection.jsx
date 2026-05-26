@@ -9,7 +9,7 @@ const MainSection = () => {
   };
 
   return (
-    <div className="w-full items-center justify-center flex px-10 sm:px-30">
+    <div className="w-full items-center justify-center flex px-10 sm:px-30 my-10 sm:my-20">
       <div className="text-left flex flex-col gap-10 sm:w-[40%]">
         <p className="text-4xl sm:w-[130%] font-bold text-[#252525]">
           Building High-Value <span className="text-[#1090CB]">Property Investments</span><br/>That Deliver Long-Term Returns
