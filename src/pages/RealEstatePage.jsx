@@ -21,7 +21,7 @@ const RealEstatePage = () => {
         <RealEstateServicesSection/>
       </div>
       <MainSection />
-      <StudioFlatSection />
+      {/* <StudioFlatSection /> */}
       <SuccessSection />
       <div className="w-full bg-[#5C2F88] rounded-t-4xl mt-20">
         <BookCallComponent />
