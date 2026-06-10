@@ -17,7 +17,7 @@ const Footer = () => {
         <Link to="/real-estate">Real Estate</Link>
         <Link to="/it-solutions">IT Solutions</Link>
         <Link to="/contact-us">Contact Us</Link>
-        <p>© 2025 Kaye MacKenzie. All rights reserved.</p>
+        <p>© 202 Kaye MacKenzie. All rights reserved.</p>
       </div>
     </div>
   );
